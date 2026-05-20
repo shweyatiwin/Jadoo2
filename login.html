@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <title>Login</title>
+</head>
+
+<body class="bg-blue-100 flex justify-center items-center min-h-screen overflow-hidden">
+
+
+    <div class="bg-white w-[360px] p-8 rounded-3xl shadow-lg">
+
+
+        <div class="flex justify-center">
+            <div class="w-14 h-14 bg-gray-100 rounded-2xl flex items-center justify-center">
+                <image src="images/locked.png"></image>
+            </div>
+        </div>
+
+
+        <div class="text-center mt-6">
+            <h1 class="text-3xl font-bold text-gray-900">
+                Welcome Back
+            </h1>
+
+            <p class="text-gray-500 text-sm mt-3">
+                Enter your credentials to access your account
+            </p>
+        </div>
+
+
+        <div class="mt-8">
+            <label class="font-semibold text-gray-700">Email Address</label>
+
+            <input type="email" placeholder="name@company.com"
+                class="w-full mt-2 border border-gray-300 rounded-xl p-4 text-gray-600 ">
+        </div>
+
+
+        <div class="mt-5"> <label class="font-semibold text-gray-700">Password</label>
+
+            <input type="password" placeholder="*********"
+                class="w-full bg-gray-100 border border-gray-200 rounded-xl py-2 px-3 mt-2">
+        </div>
+
+
+        <div class="flex justify-between items-center mt-5 text-sm">
+
+            <div class="flex items-center gap-2 text-gray-600">
+                <input type="checkbox">
+                <span>Remember me</span>
+            </div>
+
+            <a href="#" class="text-blue-600 font-semibold">
+                Forgot password?
+            </a>
+
+        </div>
+
+
+        <button class="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-4 rounded-xl mt-6 text-lg">Log In →</button>
+
+
+        <div class="text-center text-gray-500 text-sm mt-6">
+            Don't have an account yet?
+            <a href="Register.html" class="text-blue-600 font-semibold">
+                Sign up for free
+            </a>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
